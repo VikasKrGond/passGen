@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="pass.css">
+</head>
+<body>
+    <div class="passcont">
+        <p class="head1">Simple Password &#128274; Genrator..</p>
+        <label class="size" for="Size">Enter Length of Password &#128274;: </label>
+        <input type="number" id="leng"> <br>
+        <button id="click" onclick="passGen()">Generate Password &#9745;</button>
+        <button id="refres" onclick="document.location.reload(true)">Reload &#8634;</button>
+        <div id="passgen">
+            <p id="gentexts"></p>
+            <p id="genpass"></p>
+            <input type="text" id="incopy">
+            <button id="copybtn" onclick="clipboardCopy()">Copy</button>
+        </div>
+    </div>
+    <footer>&copy;This web app is made by Vikas Kumar Gond</footer>
+    <script src="pass.js"></script>
+</body>
+</html>
